@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFIT | Login</title>
+    <link rel="stylesheet" href="public/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/css/loginstyle.css">
+
+</head>
+
+<body>
+
+    <div id="page-container">
+
+
+        <div class="headervh">
+            <header id="header">
+                <li class="logo-li"><a href="index.html" class="logo">UFIT</a></li>
+                <nav id="navbar">
+                    <ul class="nav__links">
+
+                        <!-- NAVBAR LINKS -->
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="navbar-right">
+
+                    <!-- BUY NOW BUTTON AND CART ICON TOGETHER -->
+                    <a href="login.html" class="cta"><button class="login-btn-nav gradient-button">Log
+                            In</button></a>
+                    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                </div>
+
+                <!-- HAMBURGER MENU  -->
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </header>
+            <div class="header__bg">
+
+                <!-- ---------- LOGIN / SIGN UP ---------- -->
+                <div class="container">
+                    <div class="login-container" id="login-container">
+                        <div class="form-container sign-up-container">
+                            <form name="frmSignUp" action="signup.php" method="POST">
+                                <h1>Create Account</h1>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fa fa-google-plus-g"></i></a>
+                                    <a href="#" class="social"><i class="fa fa-linkedin-in"></i></a>
+                                </div>
+                                <span>or use your email for registration</span>
+                                <input type="text" name="txtName" placeholder="Name" />
+                                <input type="email" name="txtEmail" placeholder="Email" />
+                                <input type="password" name="txtPassword" placeholder="Password" />
+                                <button type="submit" name="suSubmit" id="Submit" value="Submit"
+                                    class="gradient-btn-su">Sign Up</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="signin.php">
+                                <h1>Sign in</h1>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fa fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fa fa-google-plus-g"></i></a>
+                                    <a href="#" class="social"><i class="fa fa-linkedin-in"></i></a>
+                                </div>
+                                <span>or use your account</span>
+                                <input type="email" placeholder="Email" />
+                                <input type="password" placeholder="Password" />
+                                <a href="#">Forgot your password?</a>
+                                <button class="gradient-btn-si">Sign In</button>
+                            </form>
+                        </div>
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1>Welcome Back!</h1>
+                                    <p>To keep connected with us please login with your personal
+                                        info</p>
+                                    <button class="ghost" id="signIn">Sign In</button>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Hello, Friend!</h1>
+                                    <p>Enter your personal details and start journey with us</p>
+                                    <button class="ghost" id="signUp">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- FOOTER -->
+
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <h3><img src="images/UFIT_official_LOGO.png" alt=""></h3>
+                    <span class="logo__name">UFIT</span>
+                </div>
+                <p class="footer-links">
+                    <a href="index.html" class="link-1">Home</a>
+                    <a href="product.html">Product</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="login.html">Log In</a>
+                </p>
+
+                <p class="footer-company-name">UFIT &copy; 2021</p>
+            </div>
+
+            <div class="footer-center">
+                <div class="fa-container">
+                    <div class="map-marker">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="footer-info">Pais Simulado</p>
+                    </div>
+
+                    <div class="phone">
+                        <i class="fa fa-phone"></i>
+                        <p class="footer-info">+1.555.555.5555</p>
+                    </div>
+
+                    <div class="email">
+                        <i class="fa fa-envelope"></i>
+                        <p class="footer-info"><a href="mailto:ufitproducts@gmail.com">ufitproducts@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>About the company</span>UFIT is a company that offers a product (Gummies) that help
+                    control
+                    weight and lead a healthy life.
+                </p>
+
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/UFitProduct/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ufit.products/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/ufitproducts"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="public/js/index.js"></script>
+</body>
+
+</html>
